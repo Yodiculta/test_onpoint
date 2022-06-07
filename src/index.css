@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/gilroy/Gilroy-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/gilroy/Gilroy-Extrabold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'DIN Pro';
+  font-style: normal;
+  font-weight: 1000;
+  src: url("./fonts/dinpro/DINPro.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/circe/Circe-Regular.woff2") format("woff2");
 }

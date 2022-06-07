@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+
+.bg{
+  background-image: url(./img/barbed_big.png),
+  url(./img/vague_small_ball.png),
+  url(./img/vague_ball.png),
+  url(./img/half_of_stick.png),
+  url(./img/pink_sperm_small.png),
+  url(../img/bg.png);
+  background-repeat: no-repeat, no-repeat, no-repeat,no-repeat,no-repeat, no-repeat;
+  background-position:  bottom, top, bottom, left,left,left;
+  background-size: auto 253px, auto 115px, auto 121px, auto 155px , 366px,cover;
+  background-position-x: 54%, 89%, 33%, -17px, 0px;
+  background-position-y: 100%, 4%, 83%, 145px, 90%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+@media screen and (max-width:1024px){
+  
+}
+.text_box{
+  margin-left: 6.3%;
+  margin-top:30%;
+}
+.title {
+  font-size: 218 px;
+  font-family: "Gilroy";
+  color: rgb(23, 23, 23);
+  text-transform: uppercase;
+  text-align: left;
+  margin: 8px;
+}
+.strong{
+  font-size: 218 px;
+  font-family: "Gilroy ExtraBold";
+  color: rgb(23, 23, 23);
+  text-transform: uppercase;
+  text-align: left;
+  margin: 8px;
+}
+
+
+.helo_txt {
+  font-size: 54 px;
+  font-family: "DIN Pro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  text-align: left;
+}
+.multi_bg_example {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png), url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat:  no-repeat;
+}
